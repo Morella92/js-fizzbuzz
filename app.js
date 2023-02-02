@@ -6,22 +6,23 @@ for (let i = 1; i <= 100; i++) {
 
     // ma che per i multipli di 3 stampi “Fizz” al posto del numero
 
-    if (i % 3 === 0){
+    if (i % 15 === 0) {
 
-        console.log('Fizz')
+        console.log('Fizzbuzz')
 
-        // e per i multipli di 5 stampi “Buzz”
     } else if (i % 5 === 0) {
 
         console.log('Buzz')
 
-        // Per i numeri che sono multipli di 15 stampi “FizzBuzz”
-    } else if (i % 15 ===0){
+    } else if (i % 3 === 0){
 
-        console.log('Fizzbuzz')
+        console.log('Fizz')
 
     } else {
+
         console.log(i)
+        
     }
+    
 
 }
